@@ -30,22 +30,6 @@ class Telefone {
         this.ddd = ddd;
         this.numero = numero;
     }
-
-    getDDDCaixaAlta() {
-        return this.ddd.toString().toUpperCase();
-    }
-
-    getDDDCaixaBaixa() {
-        return this.ddd.toString().toLowerCase();
-    }
-
-    getNumeroCaixaAlta() {
-        return this.numero.toString().toUpperCase();
-    }
-
-    getNumeroCaixaBaixa() {
-        return this.numero.toString().toLowerCase();
-    }
 }
 
 class Endereco {
